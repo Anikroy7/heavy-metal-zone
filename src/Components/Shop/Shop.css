@@ -7,10 +7,12 @@
    
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: rgba(236, 190, 190, 0.74);
+    background-color: rgba(243, 226, 226, 0.74);
    
     
 }
 .ordered{
-    background-color: rgba(175, 248, 248, 0.747);
+    background-color: rgb(240, 227, 187);
+    position: sticky;  
+    top: 0;
 }

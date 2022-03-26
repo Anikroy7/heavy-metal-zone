@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import './Shop.css'
 
 const Shop = () => {
     const [products, setProduct] = useState([]);
+    const [cartItems, setCartItems] = useState([]);
 
     useEffect(() => {
 
@@ -13,16 +15,24 @@ const Shop = () => {
 
     }, [])
 
+    const handelCartEvent = (products) => {
+        const newItem = [...cartItems, products];
+        setCartItems(newItem);
+
+    }
+
     return (
         <main className='shop-container'>
             <section className='products'>
                 {
-                    products.map(product => <Products products={product} key={product.id}></Products>)
+                    products.map(product => <Products products={product} key={product.id} handelCartEvent={handelCartEvent}></Products>)
                 }
             </section>
 
-            <section className='ordered'>This is select</section>
-        </main>
+            <section className='ordered  p-2'>
+                <Cart cart={cartItems}></Cart>
+            </section>
+        </main >
     );
 };
 
