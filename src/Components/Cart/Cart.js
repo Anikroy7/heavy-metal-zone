@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = (props) => {
 
     const addedProducts = props.cart;
-    // console.log(addedProducts)
+    console.log(props)
 
     const handleChoosePd = (product) => {
         let randomName = product[0];
@@ -28,7 +28,7 @@ const Cart = (props) => {
                 <button onClick={() => handleChoosePd(addedProducts)} className="choose-btn">
                     <span>Choose one for you</span>
                 </button>
-                <button className="removed-btn">
+                <button onClick={props.removeItemHandler} className="removed-btn">
                     <span>Remove Items</span>
                 </button>
             </div>

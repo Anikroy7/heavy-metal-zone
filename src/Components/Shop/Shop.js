@@ -8,6 +8,7 @@ const Shop = () => {
     const [cartItems, setCartItems] = useState([]);
 
 
+
     useEffect(() => {
 
         fetch('products.json')
@@ -21,6 +22,10 @@ const Shop = () => {
         setCartItems(newItem);
 
     }
+    const removeItem = () => {
+        const newItem = [];
+        setCartItems(newItem)
+    }
 
     return (
         <main className='shop-container'>
@@ -31,7 +36,7 @@ const Shop = () => {
             </section>
 
             <section className='ordered  p-2'>
-                <Cart cart={cartItems}></Cart>
+                <Cart cart={cartItems} removeItemHandler={removeItem}></Cart>
             </section>
         </main >
     );
