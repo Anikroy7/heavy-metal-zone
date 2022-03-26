@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-This is my music react projects
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HEAVY METAL MUSIC
+Live site link.[https://bn.reactjs.org/docs/getting-started.html]
 
 ## Available Scripts
 
