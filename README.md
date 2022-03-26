@@ -1,5 +1,5 @@
 # HEAVY METAL MUSIC
-Live site link.[https://bn.reactjs.org/docs/getting-started.html]
+Live site link >> https://bn.reactjs.org/docs/getting-started.html
 
 ## Available Scripts
 

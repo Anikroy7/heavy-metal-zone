@@ -35,7 +35,7 @@ const Shop = () => {
                 }
             </section>
 
-            <section className='ordered  p-2'>
+            <section className='ordered p-2'>
                 <Cart cart={cartItems} removeItemHandler={removeItem}></Cart>
             </section>
         </main >
