@@ -4,7 +4,7 @@ const QnA = () => {
     return (
         <section>
             <div>
-                <h2>How to react works</h2>
+                <h2>How to react works test project</h2>
                 <p>1.	React JSX মাধ্যমে  আমাদের HTMLকোড  জেনারেট করে Create করে। <br />
                     2.	React dom আমাদের broswe এ render করে যেন আমরা দেখতে পাই।<br />
                     3.	React  আমাদের Website অনেক গুলো Component এ ভাগ করে নেয়।<br />
