@@ -12,8 +12,8 @@ const Cart = (props) => {
         const choosenpdNumber = product.length;
         const randomNumber = Math.round(Math.random() * choosenpdNumber);
         randomName = product[randomNumber].name;
-        console.log(randomName)
-        return randomName;
+        alert('your lucky intrument is ' + randomName)
+
     }
 
     return (
@@ -28,10 +28,13 @@ const Cart = (props) => {
                 <button onClick={() => handleChoosePd(addedProducts)} className="choose-btn">
                     <span>Choose one for you</span>
                 </button>
+                <button className="removed-btn">
+                    <span>Remove Items</span>
+                </button>
             </div>
 
         </div>
     );
 };
-
+// onClick={handleRemovedPd} 
 export default Cart;
