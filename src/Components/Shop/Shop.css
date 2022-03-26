@@ -1,4 +1,16 @@
 .shop-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 2fr;
+}
+
+.products{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(236, 190, 190, 0.74);
+   
+    
+}
+.ordered{
+    background-color: rgba(175, 248, 248, 0.747);
 }

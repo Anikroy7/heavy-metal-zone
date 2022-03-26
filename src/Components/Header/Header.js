@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Header.css'
-class Header extends Component {
-    render() {
-        return (
+const Header = () => {
+    return (
+        <div>
             <nav className='header-container'>
                 <h1 className='ms-5'>Heavy Metal Music</h1>
                 <div className='menubar'>
@@ -11,8 +11,8 @@ class Header extends Component {
                     <a href="#about">About us</a>
                 </div>
             </nav>
-        );
-    }
-}
+        </div>
+    );
+};
 
 export default Header;
