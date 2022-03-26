@@ -8,6 +8,8 @@
 .product img{
     width: 100%;
     height: 255px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .cart-btn{
    width: 100%;

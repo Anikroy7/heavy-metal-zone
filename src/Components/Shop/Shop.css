@@ -3,6 +3,7 @@
     grid-template-columns: 3fr 2fr;
 }
 
+
 .products{
    
     display: grid;
@@ -11,8 +12,19 @@
    
     
 }
+
+@media screen and (max-width:600px) {
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
 .ordered{
-    background-color: rgb(240, 227, 187);
+    background-color: rgba(250, 145, 145, 0.384);
     position: sticky;  
     top: 0;
 }
