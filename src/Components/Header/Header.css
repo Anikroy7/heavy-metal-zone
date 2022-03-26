@@ -1,0 +1,23 @@
+.header-container{
+    background-color: rgba(243, 220, 119, 0.911);
+    margin: 0;
+    height: 100px;
+    color: rgb(66, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menubar{
+    margin-right: 100px;
+}
+.menubar a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(66, 14, 14);
+}
+.menubar a:hover{
+    color:rgb(54, 166, 194);
+    text-decoration: overline;
+}
