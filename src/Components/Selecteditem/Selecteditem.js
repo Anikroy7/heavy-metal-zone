@@ -1,7 +1,8 @@
 import React from 'react';
-
+import './Selecteditem.css'
 const Selecteditem = (props) => {
-    const { name } = props.product;
+    let { name } = props.product;
+
     return (
         <div>
             <h5>{name}</h5>
