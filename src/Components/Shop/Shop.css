@@ -1,28 +1,28 @@
-.shop-container{
+.shop-container {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
 
 
-.products{ 
+.products {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    background-color: rgba(243, 226, 226, 0.74);
-   
-    
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(226, 198, 198, 0.74);
+
+
 }
 
 @media screen and (max-width:600px) {
 
-    .products{
+    .products {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 
 
-.ordered{
+.ordered {
     background-color: rgba(250, 145, 145, 0.384);
     /* position: sticky;  
     top: 0; */
